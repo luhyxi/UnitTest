@@ -26,4 +26,8 @@
     <ProjectReference Include="..\UnitTest\UnitTest.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Services\PalavrasPorTamanhoTest.cs" />
+  </ItemGroup>
+
 </Project>
